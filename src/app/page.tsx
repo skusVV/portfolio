@@ -81,7 +81,6 @@ export default function Home() {
           </p>
         </section>
         
-
         <section id="projects" className="flex flex-col items-center sm:items-start gap-4">
           <h2 className="text-2xl font-bold">My Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
