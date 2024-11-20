@@ -77,7 +77,7 @@ export default function Home() {
             className="rounded-full"
           />
           <p className="text-center sm:text-left">
-            Hello! I'm a passionate developer with experience in building web applications using modern technologies.
+            Hello! I&apos;m a passionate developer with experience in building web applications using modern technologies.
           </p>
         </section>
         
