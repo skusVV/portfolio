@@ -1,4 +1,10 @@
-export default function ProjectCard({ project }: any) {
+import { IProject } from "@/models";
+
+interface IProps {
+  project: IProject;
+}
+
+export default function ProjectCard({ project }: IProps) {
   return (
       <div
         className="p-8 bg-gradient-to-br from-white to-gray-100 border border-gray-300 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-101"

@@ -1,4 +1,6 @@
-export const projects = [
+import { IProject } from "./models";
+
+export const projects: IProject[] = [
     {
       title: "Beyond Limits",
       description: "Developing predictive recommendations for customers in the energy industry based on artificial intelligence.",
